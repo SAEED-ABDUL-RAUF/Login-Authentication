@@ -15,7 +15,7 @@ function validation(event){
     let numberPattern =  /^[+]?\d+$/;;
 
     try{
-      if (name.value == '' && number.value == '' && email.value == '' && password == '') throw 'Fields cannot be empty'; // to handle when all fields are left empty
+      if (name.value == '' && number.value == '' && email.value == '' && password.value == '') throw 'Fields cannot be empty'; // to handle when all fields are left empty
       if (name.value == '' || name.value == null) throw 'Name can\'t be blank';
       if (name.value == '' || name.value == null) throw 'Name can\'t be blank';
 
