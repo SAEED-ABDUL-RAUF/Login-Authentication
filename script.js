@@ -1,4 +1,4 @@
-let submit = document.querySelector('.submit_field');
+let submit = document.querySelector('.submit_btn');
 
 submit.addEventListener('click', validation);
 
@@ -15,6 +15,7 @@ function validation(event){
     let numberPattern =  /^[+]?\d+$/;;
 
     try{
+      if (name.value == '' && number.value == '' && email.value == '' && password == '') throw 'Fields cannot be empty' // to handle when all fields are left empty
       if (name.value == '' || name.value == null) throw 'Name can\'t be blank'
 
       if (name.value.length < 3) throw 'Name must be atleast three characters'

@@ -61,7 +61,7 @@ a{
   text-decoration: none;
 }
 
-.submit_field{
+.submit_btn{
   width: 25%;
   height: 60px;
   background-color: #000000;
@@ -74,7 +74,7 @@ a{
   transition: 450ms;
 }
 
-.submit_field:hover{
+.submit_btn:hover{
   cursor: pointer;
   background-color: #1f1f1f;
   border: 1px solid #1f1f1f;
