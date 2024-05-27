@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+main{
+  padding-top: 100px;
+}
+
+form{
+  width: 40%;
+  margin: auto;
+  padding: 50px 10px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}  
+
+.output{
+  text-align: center;
+  color: rgb(253, 114, 15);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+  display: block;
+  height: 40px;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  border: none;
+  border-bottom: 2px solid #979292;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 30px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.name_field{
+  background-image: url('images/profile1.svg');
+}
+
+.number_field{
+  background-image: url('images/mobile.svg');
+}
+
+.email_field{
+  background-image: url('images/email.svg');
+}
+
+
+.password{
+  background-image: url('images/password2.svg');
+}
+
+a{
+  text-decoration: none;
+}
+
+.submit_field{
+  width: 25%;
+  height: 60px;
+  background-color: #000000;
+  color: #fdfcfc;
+  padding: 0;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  transition: 450ms;
+}
+
+.submit_field:hover{
+  cursor: pointer;
+  background-color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+}
+
+.login_msg{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  form{
+    width: 60%;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 767px){
+
+  form{
+    width: 90%;
+  }
+
+  .submit_field{
+    width: 40%;
+  }
+
+}
